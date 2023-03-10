@@ -1,0 +1,173 @@
+/* navigation */
+.navbar {
+    background-color: #EEEBE9;
+}
+
+.navbar a {
+    color: #886B53;
+    font-size: 1.2em;
+}
+
+nav .logo {
+    padding-right: 2%;
+}
+
+.navbar-collapse {
+    padding-top: 1.75%;
+}
+
+/* about page */
+.about-section {
+    background-color: #EEEBE9;
+    color: #886B53;
+}
+
+#about {
+    padding: 4% 15% 8% 15%;
+    line-height: 1.9em;
+}
+
+.about-heading, .contact-heading {
+    font-family: "lindsey-signature", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 3em;
+    color: #886B53;
+}
+
+.body-text {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+/* works page */
+.works-section, .mockup-section, .graphic-design-section {
+    padding-bottom: 8%;
+    background-color: #EEEBE9;
+}
+
+.works-heading {
+    font-family: "lindsey-signature", sans-serif;
+    color: #886B53;
+    font-size: 3em;
+}
+
+.works-subheading {
+    color: #886B53;
+    font-family: "ofelia-display", sans-serif;
+    font-size: 1.5em;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+/* web design page */
+.back-link {
+    color: #6c533e;
+    text-decoration: none;
+    font-family: "ofelia-display", sans-serif;
+    font-size: 80%;
+}
+
+.back-link:hover {
+    color: #886B53;
+}
+
+/* mockup and videography page */
+.work-title {
+    padding-top: 3%;
+    font-family: "ofelia-display", sans-serif;
+    color: #6c533e;
+    font-size: 1.5em;
+}
+
+.horizontal-video {
+    width: 100%;
+}
+
+/* contact page */
+.contact-section {
+    background-color: #EEEBE9;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.contact-heading {
+    text-align: center;
+    padding-top: 5%;
+    font-family: "lindsey-signature", sans-serif;
+}
+
+.contact-info {
+    text-align: center;
+    align-items: center;
+}
+
+.contact-form {
+    padding: 0 28%;
+}
+
+label {
+    padding-top: 5%;
+    font-size: 1.2em;
+    color: #886B53;
+}
+
+.form-button {
+    padding-top: 5%;
+    font-size: 1.2em;
+}
+
+.button {
+    background-color: #886B53;
+    padding: 2.5% 3.5%;
+    color: #EEEBE9;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+}
+
+.button:hover {
+    color: #EEEBE9;
+    background-color: #6c533e;
+}
+
+/* footer */
+footer {
+    background-color: #886B53;
+    color: #EEEBE9;
+    padding: 7% 3% 1% 5%;
+    text-align: center;
+}
+
+footer a {
+    background-color: #EEEBE9;
+    color: #886B53;
+    padding: 1.3% 2%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #6c533e;
+}
+
+footer p {
+    padding-top: 5%;
+}
+
+/* responsive */
+@media only screen and (max-width: 950px) {
+       .contact-form {
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .contact-form {
+        padding: 2%;
+    }
+}
